@@ -13,7 +13,7 @@
 - 内存256G，TITAN Xp 12G显存 * 2
 
 ## 模型
-基于[DeepCTR](https://github.com/shenweichen/DeepCTR)(版本大概在v0.2.2至v0.3.2之间)的xDeepFM模型，做了些修改来支持视频特征和音频特征的输入。其中视频特征和音频特征通过`128->embedding_size`的神经网络做embedding，拼接到所有特征的embedding向量后面。
+基于[DeepCTR](https://github.com/shenweichen/DeepCTR)（版本大概在v0.2.2至v0.3.2之间）的xDeepFM模型，做了些修改来支持视频特征和音频特征的输入。其中视频特征和音频特征通过`128->embedding_size`的神经网络做embedding，拼接到所有特征的embedding向量后面。
 
 具体参数设置可查看`track2.py`。
 
